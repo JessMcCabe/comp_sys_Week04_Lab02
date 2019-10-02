@@ -1,0 +1,3 @@
+
+Check that ethernet frames were received from dbserver using the MAC address
+vagrant@webserver:~$ tshark -r /vagrant/webserver-eth1-traffic2.pcap -Y"eth.addr == 08:00:27:b0:26:22"
